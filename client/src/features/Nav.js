@@ -1,6 +1,6 @@
 // This is a feature that is reused in all pages and therefore, in reference to the MVVM architecture, this acts as the model where the data is declared into variables.
 import React from 'react';
-import 'client/src/styles/Nav.css'  //this links the component and the css file
+import '/home/steve/Italanta/Elewa-Test/client/src/styles/Nav.css'  //this links the component and the css file
 
 function Nav() {
 

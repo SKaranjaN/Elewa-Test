@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+// This is the App.js file that renders the components to the web
+// It imports the components and renders them in the return
+// In reference to MVVM architecture, this acts as the view
+ 
 import './App.css';
+import Nav from './features/Nav';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
     </div>
   );
 }
