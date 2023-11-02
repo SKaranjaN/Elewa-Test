@@ -21,3 +21,11 @@ body {
     padding: 15px 0 0 20px;  /* the left padiing justifies the spaces between the link list items */
     color: #fff;
 }
+
+.horizontal-line {
+    border: none;
+    width: 88%;
+    background-color: #fff;
+    height: 1px;
+    margin-top: 30px;
+}
