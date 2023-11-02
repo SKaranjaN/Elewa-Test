@@ -3,5 +3,21 @@
 body {
     background-color: #3b3b3b;
   }
+/* The styling below targets the div containing the nav items */
+.nav-body {
+    display: flex; /* this makes the div mobile responsive */
+    flex-direction: row;
+    padding: 80px 0 0 80px;
+}
 
-  
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    margin: 0 80px 0 auto;  /* align the div element to the a bit to the right  */
+}
+
+.nav-links a {
+    padding: 15px 0 0 20px;  /* the left padiing justifies the spaces between the link list items */
+    color: #fff;
+}
