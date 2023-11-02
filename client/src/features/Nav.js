@@ -1,5 +1,6 @@
 // This is a feature that is reused in all pages and therefore, in reference to the MVVM architecture, this acts as the model where the data is declared into variables.
 import React from 'react';
+import 'client/src/styles/Nav.css'  //this links the component and the css file
 
 function Nav() {
 
@@ -18,8 +19,8 @@ function Nav() {
 
     return(
         <div>
-            <img src={logo} alt={logoAlt}/>
-            <ul>
+            <img className="logo" src={logo} alt={logoAlt}/>
+            <ul className="nav-links">
                 <li>{home}</li>
                 <li>{aboutUs}</li>
                 <li>{socialImpact}</li>
