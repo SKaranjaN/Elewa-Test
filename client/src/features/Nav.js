@@ -18,20 +18,23 @@ function Nav() {
 
 
     return(
-        <div className="nav-body">
-            <a href="https://elewa.ke/">
-                 <img className="logo" src={logo} alt={logoAlt}/>
-            </a>
-            <div className="nav-links">
-                <a href="https://elewa.ke/" >{home}</a>
-                <a href="https://elewa.ke/" >{aboutUs}</a>
-                <a href="https://elewa.ke/" >{socialImpact}</a>
-                <a href="https://elewa.ke/" >{invest}</a>
-                <a href="https://elewa.ke/" >{ventureLabs}</a>
-                <a href="https://elewa.ke/" >{brand}</a>
-                <a href="https://elewa.ke/" >{careers}</a>
-                <a href="https://elewa.ke/" >{contact}</a>
+        <div>
+            <div className="nav-body">
+                <a href="https://elewa.ke/">
+                    <img className="logo" src={logo} alt={logoAlt}/>
+                </a>
+                <div className="nav-links">
+                    <a href="https://elewa.ke/" >{home}</a>
+                    <a href="https://elewa.ke/" >{aboutUs}</a>
+                    <a href="https://elewa.ke/" >{socialImpact}</a>
+                    <a href="https://elewa.ke/" >{invest}</a>
+                    <a href="https://elewa.ke/" >{ventureLabs}</a>
+                    <a href="https://elewa.ke/" >{brand}</a>
+                    <a href="https://elewa.ke/" >{careers}</a>
+                    <a href="https://elewa.ke/" >{contact}</a>
+                </div>
             </div>
+            <hr className="horizontal-line"></hr>
         </div>
     )
 }
